@@ -20,7 +20,7 @@ if(ROOT_vmc_FOUND)
           "Cannot use VMC standalone with ROOT built with vmc.")
 endif()
 set(ROOT_DEPS ROOT::Core ROOT::RIO ROOT::Tree ROOT::Rint ROOT::Physics
-    ROOT::MathCore ROOT::Thread ROOT::Geom ROOT::EG ROOT::EGPythia6)
+    ROOT::MathCore ROOT::Thread ROOT::Geom ROOT::EG)
 include(${ROOT_USE_FILE})
 
 #-- VMC (required) ------------------------------------------------------------
