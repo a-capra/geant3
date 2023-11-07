@@ -31,7 +31,8 @@ include_directories(
   ${PROJECT_SOURCE_DIR}
   ${PROJECT_SOURCE_DIR}/minicern
   ${PROJECT_SOURCE_DIR}/TGeant3
-  ${CMAKE_CURRENT_BINARY_DIR})
+  ${CMAKE_CURRENT_BINARY_DIR}
+  ${VMC_INC_DIR})
 
 #-------------------------------------------------------------------------------
 # Generate Root dictionaries

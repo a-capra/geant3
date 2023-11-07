@@ -23,5 +23,5 @@ set(ROOT_DEPS ROOT::Core ROOT::RIO ROOT::Tree ROOT::Rint ROOT::Physics
     ROOT::MathCore ROOT::Thread ROOT::Geom ROOT::EG)
 include(${ROOT_USE_FILE})
 
-#-- VMC (required) ------------------------------------------------------------
-find_package(VMC CONFIG REQUIRED)
+##-- VMC (required) ------------------------------------------------------------
+#find_package(VMC CONFIG REQUIRED)
